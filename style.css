@@ -8,6 +8,7 @@ header{
   flex-direction: column;
   width: 100vw;
   height: 15%;
+  font-size: 12px;
 }
 
 .sub-header{
@@ -20,4 +21,8 @@ header{
 
 .hover:hover{
   cursor: pointer;
+}
+
+.list-inline > li {
+  display:inline;
 }
