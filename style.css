@@ -23,6 +23,7 @@ header{
   cursor: pointer;
 }
 
-.list-inline > li {
-  display:inline;
+.list-inline  li, .list-inline {
+  display: inline;
+  margin-left: 5px
 }
