@@ -4,9 +4,8 @@ function initalizeApp() {
   $('.single-item').slick({
     arrows: true,
     accessibility: true,
-    speed: 300,
+    speed: 600,
     autoplay: true,
-    slidesToShow: 1,
-    adaptiveHeight: true
+    slidesToShow: 1
   });
 }

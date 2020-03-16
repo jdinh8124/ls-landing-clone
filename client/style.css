@@ -7,12 +7,12 @@ header{
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 20%;
+  height: 15%;
   font-size: 12px;
 }
 
 .sub-header{
-  height: 30%;
+  height: 20%;
 }
 
 .main-header{
