@@ -7,12 +7,12 @@ header{
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 20%;
+  height: 15%;
   font-size: 12px;
 }
 
 .sub-header{
-  height: 30%;
+  height: 20%;
 }
 
 .main-header{
@@ -43,4 +43,21 @@ header{
 .hero{
   height: 70%;
 
+}
+
+.single-item  img{
+  width: 100%
+}
+
+.grad {
+  background: linear-gradient(-45deg, #8be1de, #589faa, #6cbabf, #447c89);
+  height: 1rem;
+}
+
+.item-icon{
+  transition: transform .2s;
+}
+
+.item-icon:hover {
+  transform: scale(1.055); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
