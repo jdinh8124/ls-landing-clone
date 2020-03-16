@@ -48,3 +48,7 @@ header{
 .single-item  img{
   width: 100%
 }
+
+.grad > div{
+  background: linear-gradient(-45deg, #8be1de, #589faa, #6cbabf, #447c89);
+}
