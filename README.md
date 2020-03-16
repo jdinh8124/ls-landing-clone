@@ -11,6 +11,7 @@
 - CSS3
 - Boostrap 4
 - jQuery
+- SlickSlider CDN
 
 
 ## Template
