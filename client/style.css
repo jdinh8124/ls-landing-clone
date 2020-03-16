@@ -30,10 +30,12 @@ header{
 }
 
 .logo-and-drop{
-  display:flex;
   flex-direction: column;
 }
 .drop-down{
-  display: flex;
   font-size: 1rem;
+}
+
+.icons{
+  font-size: 1.5rem;
 }
