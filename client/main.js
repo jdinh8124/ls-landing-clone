@@ -3,9 +3,9 @@ $(document).ready(initalizeApp);
 function initalizeApp() {
   $('.single-item').slick({
     arrows: true,
-    dots: false,
     accessibility: true,
     speed: 300,
+    autoplay: true,
     slidesToShow: 1,
     adaptiveHeight: true
   });
