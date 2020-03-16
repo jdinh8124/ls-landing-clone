@@ -17,6 +17,7 @@ header{
 
 .main-header{
   height: 80%;
+
 }
 
 .hover:hover{
@@ -25,5 +26,14 @@ header{
 
 .list-inline  li, .list-inline {
   display: inline;
-  margin-left: 7px
+  margin-left: 10px;
+}
+
+.logo-and-drop{
+  display:flex;
+  flex-direction: column;
+}
+.drop-down{
+  display: flex;
+  font-size: 1rem;
 }
