@@ -49,6 +49,7 @@ header{
   width: 100%
 }
 
-.grad > div{
+.grad {
   background: linear-gradient(-45deg, #8be1de, #589faa, #6cbabf, #447c89);
+  height: 1rem;
 }
