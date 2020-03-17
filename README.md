@@ -12,6 +12,7 @@
 - Boostrap 4
 - jQuery
 - SlickSlider CDN
+- Google Chrome Dev Tools to analyze page layout
 
 
 ## Template
