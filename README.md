@@ -13,6 +13,7 @@
 - jQuery
 - SlickSlider CDN
 - Google Chrome Dev Tools to analyze page layout
+- Font Awesome
 
 
 ## Template
