@@ -86,3 +86,7 @@ header{
   border-radius: .3rem;
   transition: all .2s;
 }
+
+.hidden{
+  display: none!important;
+}
