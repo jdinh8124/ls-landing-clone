@@ -106,9 +106,13 @@ footer{
 }
 
 .footer-med{
-  height: 20%;
+  height: 15%;
 }
 
 .footer-big{
-  height: 65%;
+  height: 70%;
+}
+
+.one-hundred{
+  height: 100%;
 }
