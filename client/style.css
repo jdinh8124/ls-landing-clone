@@ -94,10 +94,17 @@ header{
 
 footer{
   height: 20%;
-  background-color: grey;
 }
 
 .expand{
   height: 60%;
   transition: 1s;
+}
+
+.footer-small{
+
+}
+
+.footer-big{
+
 }
