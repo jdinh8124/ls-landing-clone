@@ -99,4 +99,5 @@ footer{
 
 .expand{
   height: 60%;
+  transition: 1s;
 }
