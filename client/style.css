@@ -93,7 +93,7 @@ header{
 }
 
 footer{
-  height: 20%;
+  height: 40%;
 }
 
 .expand{
@@ -102,9 +102,13 @@ footer{
 }
 
 .footer-small{
+  height: 20%;
+}
 
+.footer-med{
+  height: 20%;
 }
 
 .footer-big{
-
+  height: 80%;
 }
