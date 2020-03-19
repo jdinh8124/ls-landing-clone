@@ -76,3 +76,23 @@ header{
   background-color: white;
 
 }
+
+#button-expand{
+  background-color: #fff;
+  border: .1rem solid #979797;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  border-radius: .3rem;
+  transition: all .2s;
+
+}
+
+.hidden{
+  display: none!important;
+}
+
+footer{
+  height: 20%;
+  background-color: grey;
+}
