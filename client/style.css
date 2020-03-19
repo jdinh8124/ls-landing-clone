@@ -63,7 +63,7 @@ header{
 }
 
 .departments{
-  height: 30%;
+  height: 38%;
   background-color: #f1f1f1;
 }
 
@@ -95,4 +95,8 @@ header{
 footer{
   height: 20%;
   background-color: grey;
+}
+
+.expand{
+  height: 60%;
 }
