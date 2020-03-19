@@ -63,7 +63,7 @@ header{
 }
 
 .departments{
-  height: 30%;
+  height: 38%;
   background-color: #f1f1f1;
 }
 
@@ -84,7 +84,7 @@ header{
   padding: 1rem 2rem;
   margin-top: 3rem;
   border-radius: .3rem;
-  transition: all .2s;
+  transition: 1s;
 
 }
 
@@ -93,6 +93,26 @@ header{
 }
 
 footer{
-  height: 20%;
-  background-color: grey;
+  height: 40%;
+}
+
+.expand{
+  height: 60%;
+  transition: 1s;
+}
+
+.footer-small{
+  height: 15%;
+}
+
+.footer-med{
+  height: 15%;
+}
+
+.footer-big{
+  height: 70%;
+}
+
+.one-hundred{
+  height: 100%;
 }
