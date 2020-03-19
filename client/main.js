@@ -13,12 +13,12 @@ function initalizeApp() {
 
 $('#button-expand').on('click', function(){
   if ($('#hidden-dept').hasClass('hidden')){
-    $('#hidden-dept').removeClass('hidden');
+    $('#hidden-dept').removeClass('hidden', 1000);
     $('#button-expand').text('View Less')
-    $("#dept").addClass("expand");
+    $("#dept").addClass("expand", 1000);
   }else{
-    $('#hidden-dept').addClass('hidden');
+    $('#hidden-dept').addClass('hidden', 1000);
     $('#button-expand').text('View More')
-    $("#dept").removeClass("expand");
+    $("#dept").removeClass("expand", 1000);
   }
 })
