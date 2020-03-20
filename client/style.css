@@ -116,3 +116,12 @@ footer{
 .one-hundred{
   height: 100%;
 }
+
+@media screen and (max-width: 1370px){
+  .hero{
+    height: 45%;
+  }
+  #dept{
+    height: 30%;
+  }
+}
