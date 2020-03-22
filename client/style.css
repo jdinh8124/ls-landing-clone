@@ -83,12 +83,13 @@ header{
 } */
 
 
-/*
+
 @media screen and (max-width: 1370px){
-  .hero{
-    height: 45%;
+  .button-grow{
+    margin-top: 12px;
   }
-  #dept{
-    height: 30%;
+
+  .open-grow{
+    margin-top: 40px;
   }
-} */
+}
