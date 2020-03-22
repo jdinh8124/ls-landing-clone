@@ -15,9 +15,12 @@ $('#button-expand').on('click', function(){
   if ($('#hidden-dept').hasClass('hidden')){
     $('#hidden-dept').removeClass('hidden');
     $('#button-expand').text('View Less')
-    $("#dept").animate({height:'+60%'}, 300);
+    $("#dept").animate({height:'52vmin'}, 300);
+    $(".button-grow").addClass('open-grow')
   }else{
     $('#hidden-dept').addClass('hidden');
     $('#button-expand').text('View More')
-    $("#dept").animate({ height: '38%' }, 300);  }
+    $("#dept").animate({ height: '32vmin' }, 300);
+    $(".button-grow").removeClass('open-grow')
+  }
 })
