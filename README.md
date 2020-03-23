@@ -24,3 +24,4 @@
 ## Demo
 ![LSLanding Page Demo](demo.gif)
 ![LSLanding Page Hover Demo](demo2.gif)
+![LSLanding Page Hover Demo](demo3.gif)
