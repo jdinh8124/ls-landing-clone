@@ -92,4 +92,8 @@ header{
   .open-grow{
     margin-top: 40px;
   }
+
+  .departments{
+  height: 25vh;
+}
 }
