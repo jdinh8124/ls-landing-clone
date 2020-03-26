@@ -18,6 +18,7 @@
 ## Future Additions
 - Deployment
 - Mobile Responsiveness
+- Flexbox restructuring 
 
 ## Template
 ![LSLanding Page](template1.PNG)
