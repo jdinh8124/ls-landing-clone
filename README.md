@@ -19,6 +19,7 @@
 - Deployment
 - Mobile Responsiveness
 - Flexbox restructuring 
+- Working links
 
 ## Template
 ![LSLanding Page](template1.PNG)
