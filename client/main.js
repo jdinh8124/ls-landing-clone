@@ -8,6 +8,27 @@ function initalizeApp() {
     autoplay: true,
     slidesToShow: 1
   });
+  backTop();
+}
+
+
+function backTop(){
+  let btn = $('.back-top');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() < 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (event) {
+    event.preventDefault();
+    $('html').animate({ scrollTop: 0 }, '300');
+  });
+
+
 }
 
 
