@@ -4,7 +4,7 @@ function initalizeApp() {
   $('.single-item').slick({
     arrows: true,
     accessibility: true,
-    speed: 600,
+    speed: 700,
     autoplay: true,
     slidesToShow: 1
   });
