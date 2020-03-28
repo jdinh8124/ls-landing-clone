@@ -6,7 +6,11 @@ overflow-x: hidden;
 header{
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+}
+
+.sub-header{
+  height: 4vh;
+  font-size: 14px;
 }
 
 .back-top{
