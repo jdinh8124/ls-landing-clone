@@ -17,6 +17,11 @@ header{
   z-index: 2;
 }
 
+.under-line:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .show{
 display: none;
 }
