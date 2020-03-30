@@ -16,6 +16,11 @@ function initalizeApp() {
     slidesToShow: 1
   });
   backTop();
+  $("#introModalSubmit").on("submit", function(event){
+    console.log('hello')
+    event.preventDefault();
+    $("#intro-modal").addClass("hidden")
+  })
 }
 
 
