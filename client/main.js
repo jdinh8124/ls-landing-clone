@@ -4,18 +4,23 @@ function initalizeApp() {
   $('.single-item').slick({
     arrows: true,
     accessibility: true,
-    speed: 800,
+    speed: 1500,
     autoplay: true,
     slidesToShow: 1
   });
   $('#header-message-slide').slick({
     arrows: false,
     accessibility: true,
-    speed: 800,
+    speed: 900,
     autoplay: true,
     slidesToShow: 1
   });
   backTop();
+  $("#introModalSubmit").on("submit", function(event){
+    console.log('hello')
+    event.preventDefault();
+    $("#intro-modal").addClass("hidden")
+  })
 }
 
 
