@@ -5,6 +5,9 @@
 ## Summary
 - jQuery practice by imitating the LS website. Also built using JavaScript (ES5 & ES6), CSS3, HTML5, and Boostrap 4
 
+## Live (In Progress not fully mobile responsive)
+[Link To Live Site ](https://ls-landing-clone.jamestdinh.com/)
+
 ## Technologies Used:
 - HTML5
 - JavaScript (ES5 & ES6)
