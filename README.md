@@ -19,7 +19,6 @@
 - Font Awesome
 
 ## Future Additions
-- Deployment
 - Mobile Responsiveness
 - Flexbox restructuring 
 - Working links
