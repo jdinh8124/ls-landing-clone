@@ -4,7 +4,7 @@
 
 ## Summary
 - jQuery practice by imitating the LS website. Also built using JavaScript (ES5 & ES6), CSS3, HTML5, and Boostrap 4
-> -Disclaimer: Please note that this website was created following my living spaces interview and was created to continue to improve my jquery, slick-slider, JavaScript, CSS3, Bootstrap4 and HTML5 skills. THIS IS NOT THE REAL SITE and was created purely for practice! I do not intend on stealing customers or taking product information. If you are looking for the real Living Spaces site please visit : livingspaces.com or visit a store in-person!
+> - Disclaimer: Please note that this website was created following my living spaces interview and was created to continue to improve my jquery, slick-slider, JavaScript, CSS3, Bootstrap4 and HTML5 skills. THIS IS NOT THE REAL SITE and was created purely for practice! I do not intend on stealing customers or taking product information. If you are looking for the real Living Spaces site please visit : livingspaces.com or visit a store in-person!
 
 ## Live (In Progress not fully mobile responsive)
 [Link To Live Site ](https://ls-landing-clone.jamestdinh.com/)
