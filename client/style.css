@@ -110,14 +110,6 @@ display: none;
   display: none!important;
 }
 
-
-/* .expand{
-  height: 60%;
-  transition: 1s;
-} */
-
-
-
 @media screen and (max-width: 1370px){
   .button-grow{
     margin-top: 12px;
