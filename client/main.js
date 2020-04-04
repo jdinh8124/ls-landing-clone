@@ -26,7 +26,6 @@ function initalizeApp() {
 
 function backTop(){
   let btn = $('.back-top');
-
   $(window).scroll(function () {
     if ($(window).scrollTop() < 300) {
       btn.addClass('show');
@@ -39,10 +38,7 @@ function backTop(){
     event.preventDefault();
     $('html').animate({ scrollTop: 0 }, '300');
   });
-
-
 }
-
 
 $('#button-expand').on('click', function(){
   if ($('#hidden-dept').hasClass('hidden')){
