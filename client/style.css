@@ -80,7 +80,8 @@ display: none;
 }
 
 .departments{
-  height: 32vh;
+  height: auto;
+  padding-bottom: 25px;
   background-color: #f1f1f1;
 }
 
@@ -109,14 +110,6 @@ display: none;
   display: none!important;
 }
 
-
-/* .expand{
-  height: 60%;
-  transition: 1s;
-} */
-
-
-
 @media screen and (max-width: 1370px){
   .button-grow{
     margin-top: 12px;
@@ -127,6 +120,6 @@ display: none;
   }
 
   .departments{
-  height: 25vh;
+  height: 45vh;
 }
 }
