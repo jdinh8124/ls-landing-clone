@@ -48,12 +48,22 @@ $('#button-expand').on('click', function(){
   if ($('#hidden-dept').hasClass('hidden')){
     $('#hidden-dept').removeClass('hidden');
     $('#button-expand').text('View Less')
-    $("#dept").animate({height:'52vmin'}, 300);
     $(".button-grow").addClass('open-grow')
+    if(screen.width > 1800){
+      $("#dept").animate({ height: '52vmin' }, 300);
+    }else{
+      $("#dept").animate({ height: '71vmin' }, 300);
+
+    }
   }else{
     $('#hidden-dept').addClass('hidden');
     $('#button-expand').text('View More')
-    $("#dept").animate({ height: '32vmin' }, 300);
     $(".button-grow").removeClass('open-grow')
+    if (screen.width > 1800) {
+    $("#dept").animate({ height: '32vmin' }, 300);
+    }else{
+      $("#dept").animate({ height: '41vmin' }, 300);
+
+    }
   }
 })

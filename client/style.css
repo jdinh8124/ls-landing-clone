@@ -80,7 +80,8 @@ display: none;
 }
 
 .departments{
-  height: 32vh;
+  height: auto;
+  padding-bottom: 25px;
   background-color: #f1f1f1;
 }
 
@@ -127,6 +128,6 @@ display: none;
   }
 
   .departments{
-  height: 25vh;
+  height: 45vh;
 }
 }
