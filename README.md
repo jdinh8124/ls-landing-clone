@@ -23,6 +23,7 @@
 - Mobile Responsiveness
 - Flexbox restructuring 
 - Working links
+- Animations through sass or motion ui
 
 ## Template
 ![LSLanding Page](template1.PNG)
