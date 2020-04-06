@@ -48,7 +48,7 @@ $('#button-expand').on('click', function(){
     if(screen.width > 1800){
       $("#dept").animate({ height: '52vmin' }, 300);
     }else{
-      $("#dept").animate({ height: '71vmin' }, 300);
+      $("#dept").animate({ height: '420px' }, 300);
 
     }
   }else{
@@ -58,7 +58,7 @@ $('#button-expand').on('click', function(){
     if (screen.width > 1800) {
     $("#dept").animate({ height: '32vmin' }, 300);
     }else{
-      $("#dept").animate({ height: '41vmin' }, 300);
+      $("#dept").animate({ height: '250px' }, 300);
 
     }
   }
