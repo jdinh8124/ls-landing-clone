@@ -25,6 +25,11 @@
 - Working links
 - Animations through sass or motion ui
 
+## Takeaways
+- The speed of some manipulation in jQuery
+- Being able to understand all types of selectors helps your ability to transverse divs
+
+
 ## Template
 ![LSLanding Page](template1.PNG)
 ![LsLanding Hover Elements ](template2.PNG)
