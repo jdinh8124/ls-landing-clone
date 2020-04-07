@@ -17,9 +17,13 @@ function initalizeApp() {
   });
   backTop();
   $("#introModalSubmit").on("submit", function(event){
-    console.log('hello')
     event.preventDefault();
     $("#intro-modal").addClass("hidden")
+  })
+
+
+  $('.signIn').popover({
+    trigger: 'focus',
   })
 }
 
