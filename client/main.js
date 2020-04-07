@@ -1,6 +1,9 @@
 $(document).ready(initalizeApp);
 
 function initalizeApp() {
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   $('.single-item').slick({
     arrows: true,
     accessibility: true,
