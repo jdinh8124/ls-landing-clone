@@ -1,6 +1,9 @@
 $(document).ready(initalizeApp);
 
 function initalizeApp() {
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   $('.single-item').slick({
     arrows: true,
     accessibility: true,
@@ -17,9 +20,13 @@ function initalizeApp() {
   });
   backTop();
   $("#introModalSubmit").on("submit", function(event){
-    console.log('hello')
     event.preventDefault();
     $("#intro-modal").addClass("hidden")
+  })
+
+
+  $('.signIn').popover({
+    trigger: 'focus',
   })
 }
 
