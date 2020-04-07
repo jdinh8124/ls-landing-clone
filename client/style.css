@@ -28,6 +28,13 @@ header{
   z-index: 2;
 }
 
+.hidden-modal{
+  width: 10px;
+  height: 15px;
+  background-color: black;
+  z-index: 2;
+}
+
 .under-line:hover{
     text-decoration: underline;
     cursor: pointer;
