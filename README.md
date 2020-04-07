@@ -23,6 +23,8 @@
 - Mobile Responsiveness
 - Flexbox restructuring 
 - Working links
+- Working modals 
+- More furniture sections 
 - Animations through sass or motion ui
 
 ## Takeaways
