@@ -28,6 +28,15 @@ function initalizeApp() {
   $('.signIn').popover({
     trigger: 'focus',
   })
+
+  $('.dept-hover').hover(function(){
+    console.log('hello')
+    $('.ul-list').addClass("ul-list-display");
+  }, function () {
+    $('.ul-list').removeClass("ul-list-display");
+  }
+  )
+
 }
 
 

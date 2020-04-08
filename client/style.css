@@ -117,6 +117,17 @@ display: none;
   display: none!important;
 }
 
+.ul-list{
+  display:none;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.ul-list-display{
+  display: inline-block;
+}
+
 @media screen and (max-width: 1370px){
   .button-grow{
     margin-top: 12px;
