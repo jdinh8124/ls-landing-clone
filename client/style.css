@@ -117,6 +117,17 @@ display: none;
   display: none!important;
 }
 
+.ul-list{
+  display:none;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.ul-list-display{
+  display: inline-block;
+}
+
 @media screen and (max-width: 1370px){
   .button-grow{
     margin-top: 12px;
@@ -128,5 +139,25 @@ display: none;
 
   .departments{
   height: 250px;
+}
+
+@media screen and (max-width: 670px){
+  .header-font {
+    font-size: 8px
+  }
+
+  .small-hide {
+    visibility: hidden;
+  }
+
+  .department-small {
+    font-size: 10px;
+  }
+
+  .department-small-img {
+    height: 29px;
+    width: 29px;
+    max-width: 25px;
+  }
 }
 }
